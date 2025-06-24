@@ -1,0 +1,43 @@
+/*=======
+variables
+=========*/
+
+:root {
+  /*color scheme*/
+
+  /*fonts*/
+
+}
+
+/*=======================
+ reset browser defaults
+ ========================*/
+html {
+  overscroll-behavior: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
