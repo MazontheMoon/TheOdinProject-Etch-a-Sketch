@@ -38,6 +38,7 @@ body * {
   -moz-box-sizing: border-box;
 }
 
-body {
-    background-color: red;
+/*set layout as grid using flexbox*/
+h1 {
+  color: red;
 }
