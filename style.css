@@ -42,3 +42,15 @@ body * {
 h1 {
   color: red;
 }
+
+#containerc{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.grid-item{
+  flex:0 20px 0;
+  background-color: pink;
+}
