@@ -39,18 +39,24 @@ body * {
 }
 
 /*set layout as grid using flexbox*/
-h1 {
-  color: red;
-}
 
-#containerc{
+#container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-content: space-evenly;
+  width: min(100vw, 100vh);  /* Use the smaller viewport dimension */
+  height: min(100vw, 100vh);
+  margin: 0 auto;
 }
 
-.grid-item{
-  flex:0 20px 0;
+.grid-item {
+  flex: 0 0 calc(100% / 16); /* Each div gets 1/16 of the row width */
   background-color: pink;
+  aspect-ratio: 1 / 1; 
+}
+
+.hovered {
+  //change background color
+  // ease out effect for fading tail
 }
